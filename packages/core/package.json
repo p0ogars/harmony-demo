@@ -1,0 +1,16 @@
+{
+  "name": "@demo/core",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "harmony": "github:openai/harmony#dist-js"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
