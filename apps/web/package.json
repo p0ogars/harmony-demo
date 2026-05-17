@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc &amp;&amp; vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@demo/core": "workspace:*",
     "harmony": "github:openai/harmony#dist-js"
   },
   "devDependencies": {
