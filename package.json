@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "packageManager": "pnpm@10.6.5",
+  "scripts": {
+    "dev": "pnpm -F demo-web dev",
+    "build": "pnpm -F demo-web build",
+    "preview": "pnpm -F demo-web preview",
+    "ingest": "pnpm -F demo-node ingest",
+    "stream": "pnpm -F demo-node stream"
+  }
+}
