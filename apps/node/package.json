@@ -1,0 +1,23 @@
+{
+  "name": "demo-node",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "ingest": "tsx src/cli/ingest.ts",
+    "stream": "tsx src/cli/stream.ts"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.7",
+    "harmony": "github:openai/harmony#dist-js",
+    "wavefile": "^1.3.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
