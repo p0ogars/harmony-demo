@@ -11,6 +11,7 @@
     "stream": "tsx src/cli/stream.ts"
   },
   "dependencies": {
+    "@demo/core": "workspace:*",
     "commander": "^12.1.0",
     "dotenv": "^16.4.7",
     "harmony": "github:openai/harmony#dist-js",
